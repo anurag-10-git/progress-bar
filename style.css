@@ -1,0 +1,21 @@
+h1 {
+    position: relative;
+    font-size: 8rem;
+    text-align: center;
+    top: 7rem;
+   
+    animation: delight 3s infinite;
+    animation-direction: alternate;
+}
+
+@keyframes delight {
+ from {
+    color: red;
+     transform: rotate(30deg);
+ }
+    to {
+        color: green;
+        transform:rotate(-30deg);
+    }
+}
+
