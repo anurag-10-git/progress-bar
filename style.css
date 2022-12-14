@@ -8,6 +8,7 @@ h1 {
     animation-direction: alternate;
 }
 
+
 @keyframes delight {
  from {
     color: red;
